@@ -11,21 +11,22 @@ This repository contains a collection of data science projects completed during 
 
 ---
 
-## Project 1: Churn Prediction
+## Basic Python: Project
 
 ### Objective
-The goal of this project was to build a machine learning model to predict customer churn, helping businesses identify at-risk customers and improve retention strategies.
+The aim of this project is to investigate how the number of votes a title receives from IMDb users impacts its ratings. The assumption is that highly-rated shows (we will focus on TV shows, ignoring movies) released during the “Golden Age” of television also have the most votes.
 
 ### What Was Done
-- Developed an XGBoost model for customer churn prediction.
-- Data preprocessing, feature engineering, and hyperparameter tuning using GridSearchCV.
-- Achieved an ROC AUC score of 0.9018 on the test set.
+- Conducted an analysis to identify the "Golden Age" of cinema by examining the correlation between movie ratings and their release years.
+- Cleaned the data by handling missing values and transforming categorical data.
+- Applied visualization techniques to present the findings, including line plots for average ratings across decades
+- Identified key periods with significant trends, and proposed insights into what contributed to the so-called "Golden Age" of cinema.
 
 ### Results
-The model successfully identified 90% of high-risk customers, allowing targeted marketing strategies for retention.
+The research done confirms that highly-rated shows released during the "Golden Age" of television also have the most votes. While shows with score 4 have more votes than ones with scores 5 and 6, the top three (scores 7-9) have the largest number. The data studied represents around 94% of the original set so that we can be confident in our findings.
 
-### Screenshots
-![Churn Prediction ROC Curve](./images/churn_roc_curve.png)
+### Files
+- [Notebook](.sprint_1/golden_age.ipynb)
 
 ---
 
