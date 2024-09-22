@@ -26,7 +26,7 @@ The aim of this project is to investigate how the number of votes a title receiv
 The research done confirms that highly-rated shows released during the "Golden Age" of television also have the most votes. While shows with score 4 have more votes than ones with scores 5 and 6, the top three (scores 7-9) have the largest number. The data studied represents around 94% of the original set so that we can be confident in our findings.
 
 ### Files
-- [Notebook](.sprint_1/golden_age.ipynb)
+- [Notebook](./sprint_1/golden_age.ipynb)
 
 ---
 
