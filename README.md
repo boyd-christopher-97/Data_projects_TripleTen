@@ -11,8 +11,10 @@ This repository contains a collection of data science projects completed during 
 5. [Project 5: Plan Recommendation](./sprint_7/plan_recommendation.ipynb)
 6. [Project 6: Profit Evaluation](./sprint_9/profit_evaluation.ipynb)
 7. [Project 7: Gold Prediction](./sprint_10/gold_prediction.ipynb)
-8. [Project 7: Insurance Modeling](./sprint_11/insurance_modeling.ipynb)
-9. [Project 7: Car Valuation](./sprint_11/car_valuation.ipynb)
+8. [Project 8: Insurance Modeling](./sprint_11/insurance_modeling.ipynb)
+9. [Project 9: Car Valuation](./sprint_12/car_valuation.ipynb)
+10. [Project 10: Car Valuation](./sprint_13/order_prediction.ipynb)
+11. [Project 9: Car Valuation](./sprint_14/car_valuation.ipynb)
 
 
 ---
@@ -243,7 +245,7 @@ Using the data on extraction and purification, the random forest model performs 
 
 ---
 
-## Project 10: Insurance Modeling
+## Project 8: Insurance Modeling
 
 ### Objective
 The objective of this project is to evaluate how **Sure Tomorrow Insurance** can use Machine Learning to address multiple business problems, including customer similarity identification, benefit prediction, and data protection.
@@ -271,7 +273,7 @@ With obfuscation, we developed a data transformation algorithm that makes it har
 
 ---
 
-## Project 11: Car Valuation 
+## Project 9: Car Valuation 
 
 ### Objective
 The goal of this project is to develop a machine learning model for **Rusty Bargain**, a used car sales service, to determine the market value of a car based on historical data. The model needs to provide accurate predictions, fast inference, and efficient training times.
@@ -301,3 +303,9 @@ Although the prediction time for LightGBM is slightly slower compared to other m
 - [Notebook](./sprint_12/car_valuation.ipynb)
 
 ---
+## Project 10: Order Prediction
+
+### Results
+Prophet is a robust forecasting library that effectively handles outliers and missing data, which contributes to its strong performance in terms of RMSE. In our analysis, we observed significant fluctuations towards the end of the dataset, particularly within the 6-month cycle, which the Prophet model captured well. Given these factors, I recommend that Sweet Lift Taxi use the Prophet model to predict the number of taxi orders for the next hour.
+  ### Notebook
+- [Notebook](./sprint_13/order_prediction.ipynb)
