@@ -11,6 +11,7 @@ This repository contains a collection of data science projects completed during 
 5. [Project 5: Plan Recommendation](./sprint_7/plan_recommendation.ipynb)
 6. [Project 6: Profit Evaluation](./sprint_9/profit_evaluation.ipynb)
 7. [Project 7: Gold Prediction](./sprint_10/gold_prediction.ipynb)
+8. [Project 7: Insurance Modeling](./sprint_11/insurance_modeling.ipynb)
 
 ---
 
@@ -240,7 +241,7 @@ Using the data on extraction and purification, the random forest model performs 
 
 ---
 
-## Project 10: Insurance Modeling for Sure Tomorrow
+## Project 10: Insurance Modeling
 
 ### Objective
 The objective of this project is to evaluate how **Sure Tomorrow Insurance** can use Machine Learning to address multiple business problems, including customer similarity identification, benefit prediction, and data protection.
