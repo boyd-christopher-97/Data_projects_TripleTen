@@ -6,7 +6,7 @@ This repository contains a collection of data science projects completed during 
 
 1. [Project 1: Golden Age](./sprint_1/golden_age.ipynb)
 2. [Project 2: Instacart Insights](./sprint_2/instacart_insights.ipynb)
-3. [Project 3: News Article Classification](./sprint_3/plan_profitability.ipynb)
+3. [Project 3: Plan Profitability](./sprint_3/plan_profitability.ipynb)
 4. [Project 4: Game Success](./sprint_5/game_success.ipynb)
 5. [Project 5: Plan Recommendation](./sprint_7/plan_recommendation.ipynb)
 6. [Project 6: Profit Evaluation](./sprint_9/profit_evaluation.ipynb)
@@ -208,7 +208,36 @@ After training and testing the model of the three regions, region one had the hi
 - [Notebook](./sprint_9/profit_evaluation.ipynb)
 ---
 
+## Project 7: Gold Prediction
+
+### Objective
+The goal of this project is to develop a machine learning model that predicts the amount of gold recovered from ore. This model will help **Zyfra**, a company specializing in efficiency solutions for heavy industry, optimize their production process and eliminate unprofitable parameters.
+
+### What Was Done
+- **Data Preparation**:
+  - Cleaned and preprocessed data on gold extraction and purification.
+  - Handled missing values and performed feature engineering to select important features for the model.
+  
+- **Data Analysis**:
+  - Conducted exploratory data analysis (EDA) to examine the relationships between the features and the target variable (gold recovery).
+  - Visualized key metrics, including recovery efficiency at different stages of the production process.
+
+- **Model Development**:
+  - Trained multiple machine learning models including:
+    - Linear Regression
+    - Random Forest
+  - Evaluated model performance 
+  
+- **Model Tuning**:
+  - Fine-tuned hyperparameters for the final model to optimize predictive accuracy.
+  - Selected the best model based on cross-validation results.
+
+### Results
+Using the data on extraction and purification, the random forest model performs best and predicts the amount of gold recovered from gold ore. Using hyperparameters n_estimators: 30 best_depth: 10 allowed me to narrow it down to 8.8% on the best validation set and 7.7% on the final rf test set. Furthermore, a percentage difference of 7.7% is generally low and tells us the model's predictions are close to the target. Within the sanity check, I found a 10.8% final smape on the train set and 9% on test which indicates the random forest model performs better.
+
   ### Notebook
 - [Notebook](./sprint_10/gold_prediction.ipynb)
+
+---
 
 
