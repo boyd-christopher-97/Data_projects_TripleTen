@@ -4,7 +4,7 @@ This repository contains a collection of data science projects completed during 
 
 ## Table of Contents
 
-1. [Project 1: Churn Prediction](#project-1-churn-prediction)
+1. [Project 1: Churn Prediction](./sprint_1/golden_age.ipynb)
 2. [Project 2: Sentiment Analysis](#project-2-sentiment-analysis)
 3. [Project 3: News Article Classification](#project-3-news-article-classification)
 4. [Project 4: Sales Forecasting](#project-4-sales-forecasting)
