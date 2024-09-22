@@ -12,6 +12,8 @@ This repository contains a collection of data science projects completed during 
 6. [Project 6: Profit Evaluation](./sprint_9/profit_evaluation.ipynb)
 7. [Project 7: Gold Prediction](./sprint_10/gold_prediction.ipynb)
 8. [Project 7: Insurance Modeling](./sprint_11/insurance_modeling.ipynb)
+9. [Project 7: Insurance Modeling](./sprint_11/insurance_modeling.ipynb)
+
 
 ---
 
@@ -268,3 +270,4 @@ With obfuscation, we developed a data transformation algorithm that makes it har
 - [Notebook](./sprint_11/insurance_modeling.ipynb)
 
 ---
+
