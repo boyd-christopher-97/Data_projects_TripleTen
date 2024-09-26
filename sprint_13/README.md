@@ -11,10 +11,9 @@ The objective of this project is to develop a machine learning model to predict 
 
 - **Model Development**:
   - Trained and compared multiple models, including:
-    - **Linear Regression**: Used as a baseline model for comparison.
-    - **Decision Tree Regressor**: Tuned maximum depth and minimum samples for splits.
-    - **Random Forest Regressor**: Tuned the number of trees and depth.
-    - **Gradient Boosting Models (LightGBM and XGBoost)**: Tuned hyperparameters such as learning rate and number of boosting rounds.
+    - **Auto Regression**
+    - **Moving Average**
+    - **Prophet**
 
 - **Model Evaluation**:
   - Used the RMSE (Root Mean Squared Error) metric to evaluate the models.
